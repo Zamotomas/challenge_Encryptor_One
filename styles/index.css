@@ -1,18 +1,40 @@
 body{
-  background-color: #E5E5E5;
+  background-color: peru;
 }
 
 
 header{
-  margin: 20px 0;
+  margin: 40px 0;
+  
 }
 
-section textarea {
+main{
+  display:flex;
+  background-color: plum;
+}
+
+
+
+
+.areaIngresoTexto textarea {
+  text-align: center;
+  resize: none;
   font-size: 32px;
   color: #0A3871;
   border:none;
-  background-color:#E5E5E5;
-
+  background-color: #E5E5E5;
+  border: none;
+  appearance: none;
+  width: 770px;
+  height: 360px;
+ }
+.areaIngresoTexto p{
+  color:gray;
+  font-size: 12px;
+  line-height: 150%;
+}
+.buttonsPrincipales input{
+ margin-left: 20px;
 }
 
 .buttonCodificar{
@@ -27,4 +49,16 @@ section textarea {
   color:#0A3871;
 }
 
+/*Area de test*/
+/*--------------------------------------------------------*/
+
+.areaIngresoTexto{
+  background-color:greenyellow;
+}
+.areaSalidaTexto {
+  background-color:lightcoral;
+}
+
+/*--------------------------------------------------------*/
+/*Area de test*/
   
