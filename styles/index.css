@@ -1,4 +1,30 @@
 body{
   background-color: #E5E5E5;
 }
+
+
+header{
+  margin: 20px 0;
+}
+
+section textarea {
+  font-size: 32px;
+  color: #0A3871;
+  border:none;
+  background-color:#E5E5E5;
+
+}
+
+.buttonCodificar{
+  background-color: #0A3871;
+  width: 328px;
+  color:#ffffff;
+}
+
+.buttonDecodificar{
+  background-color:#E5E5E5;
+  width: 328px;
+  color:#0A3871;
+}
+
   
