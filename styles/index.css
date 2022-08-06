@@ -6,23 +6,20 @@ body {
 
 }
 
-
 header {
-  
   margin-top: 1.5rem;
-  
-  
 }
 
 /*Area de Ingreso de datos*/
 .areaIngresoTexto {
   width: 70%;
-  background-color:#E5E5E5;
- 
+  background-color: #E5E5E5;
+
 }
-.texto{
+
+.texto {
   margin-left: 10%;
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .areaIngresoTexto textarea {
@@ -31,12 +28,12 @@ header {
   font-size: 32px;
   color: #0A3871;
   border: none;
-  background-color: #E5E5E5;  
+  background-color: #E5E5E5;
   width: 770px;
   height: 360px;
   font-family: 'Inter', sans-serif;
   outline: none;
-  
+
 }
 
 .areaIngresoTexto p {
@@ -44,9 +41,10 @@ header {
   font-size: 12px;
   line-height: 150%;
   margin-top: 5%;
- 
+
 }
-.buttonsPrincipales{
+
+.buttonsPrincipales {
   margin-left: 5%;
   margin-top: 1%;
 }
@@ -58,18 +56,19 @@ header {
   padding: 1rem;
   margin: 0.4rem 0px;
   margin-left: 3%;
-  cursor: pointer;
   width: 328px;
-  
+  cursor: pointer;
+
 }
 
 .buttonCodificar {
   background-color: #0A3871;
   color: #ffffff;
-  
+
 }
-.buttonCodificar:active{
-  background-color:red;
+
+.buttonCodificar:active {
+  background-color: red;
 }
 
 
@@ -81,7 +80,7 @@ header {
 /*Area de Salida de datos*/
 
 .areaSalidaTexto {
-   width:30%;
+  width: 30%;
   background-color: #fff;
   border: solid 1px #ddd;
   border-radius: 1rem;
@@ -91,47 +90,51 @@ header {
   color: #495057;
   position: relative;
   text-align: center;
-  color:#495057;
+  color: #495057;
   line-height: 120%;
 
 
 }
 
-.areaSalidaTexto div{
- 
+.areaSalidaTexto div {
+
   padding-top: 100px;
-  margin-top:80px;
+  margin-top: 80px;
   padding: 5%;
 }
-.areaSalidaTexto div h1{
+
+.areaSalidaTexto div h1 {
   font-size: 24px;
   font-weight: bold;
- 
+
 }
-.areaSalidaTexto div p{
+
+.areaSalidaTexto div p {
   font-weight: normal;
   font-size: 16px;
 }
 
-.areaSalidaTexto img{
+.areaSalidaTexto img {
   display: block;
-  
-}
-.mensajeFinal{
-  display: none;
-  text-align: center;
-   resize: none;
-   font-size: 32px;
-   color: #0A3871;
-   border: none;
-   width: 100%;
-   height: 460px;
-   font-family: 'Inter', sans-serif;
-   outline: none;
- 
 
 }
-.areaSalidaTexto input{
+
+.mensajeFinal {
+  display: none;
+  text-align: center;
+  resize: none;
+  font-size: 32px;
+  color: #0A3871;
+  border: none;
+  width: 100%;
+  height: 460px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+
+
+}
+
+.areaSalidaTexto input {
   font-family: 'Inter', sans-serif;
   border: solid 1px #0A3871;
   border-radius: 1.4em;
@@ -145,9 +148,217 @@ header {
   left: 13%;
   bottom: 10%;
   display: none;
- 
-
 
 }
 
+/*Tabletas*/
+@media screen and (max-width: 780px) {
+  body {
+    
+    display: inline-block;
+    width: 780px;
+    height: 900px;
+  }
+
+  .areaIngresoTexto {
+    
+    
+    width: 100%;
+    height: 80%;
+  }
+
+  .areaIngresoTexto textarea {
+    width: 90%;
+   
+  }
+
+  .buttonsPrincipales {
+    width: 100%;
+    margin-left: 0px;
+    scale: 1.1;
+    margin-top: 5%;
+    padding: 1.4rem;
+  }
+  
+
+  .areaIngresoTexto input {
+    width: 43%;
+    border-radius: 1.4em;
+    margin: 0.4rem 0px;
+    margin-left: 2%;
+    font-size: 30px;
+
+  }
+  .areaIngresoTexto p{
+    font-size: 25px;
+  }
+
+  .areaSalidaTexto {
+    
+    width: 85%;
+    height: 20%;
+    margin-top: 3px;
+    margin-left: 5%;
+    
+
+  }
+
+  .areaSalidaTexto div {
+    padding-top: 0px;
+    margin-top: 0px;
+    
+    
+  }
+  
+  .areaSalidaTexto div h1 {
+    font-size: 24px;
+    font-weight: bold;
+    
+  
+  }
+  
+  .areaSalidaTexto div p {
+    font-weight: normal;
+    font-size: 16px;
+    
+  }
+  .areaSalidaTexto img{
+    display: none;
+  }
+  
+  .areaSalidaTexto input{
+  font-family: 'Inter', sans-serif;
+  border: solid 1px #0A3871;
+  border-radius: 35px;
+  padding: 1rem;
+  margin-left: 8%;
+  cursor: pointer;
+  width: 80%;
+  background-color: #D8DFE8;
+  color: #0A3871;
+  position: absolute;
+  left: 1%;
+  display: none;  
+  font-size: 30px;
+
+  }
+  
+  .mensajeFinal {
+    display: none;
+    text-align: center;
+    resize: none;
+    font-size: 32px;
+    color: #0A3871;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+  
+  
+  }
+
+}
+
+/*Telefonos*/
+@media screen and (max-width: 376px) {
+  body{
+    background-color: red;
+    width: 375px;
+    height: 600px;
+  }
+  .areaIngresoTexto {
+      background-color: blue;
+    width: 100%;
+    height: 80%;
+  }
+  .areaIngresoTexto textarea {
+    width: 90%;
+    height: 260px;
+  }
+  .buttonsPrincipales {
+    width: 80%;
+    margin-left: 0px;
+    scale: 1.2;
+    margin-top: 5%;
+    padding: 1.8rem;
+  }
  
+
+  .areaIngresoTexto input {
+    width: 43%;
+    border-radius: 1.4em;
+    font-size: 10px;
+
+  }
+  .areaIngresoTexto p{
+    
+    font-size: 17px;
+  }
+
+  .areaSalidaTexto {
+    background-color: green;
+    width: 85%;
+    height: 20%;
+    margin-top: 3px;
+    margin-left: 5%;
+    
+
+  }
+
+  .areaSalidaTexto div {
+    padding-top: 0px;
+    margin-top: 0px;
+    
+    
+  }
+  
+  .areaSalidaTexto div h1 {
+    font-size: 24px;
+    font-weight: bold;
+    
+  
+  }
+  
+  .areaSalidaTexto div p {
+    font-weight: normal;
+    font-size: 16px;
+    
+  }
+  .areaSalidaTexto img{
+    display: none;
+  }
+  
+  .areaSalidaTexto input{
+  font-family: 'Inter', sans-serif;
+  border: solid 1px #0A3871;
+  border-radius: 35px;
+  
+  cursor: pointer;
+  width: 50%;
+  margin-left: 23%;
+  background-color: #D8DFE8;
+  color: #0A3871;
+  position: absolute;
+  left: 1%;
+  display: none;  
+  font-size: 20px;
+
+  }
+  
+  .mensajeFinal {
+    display: none;
+    text-align: center;
+    resize: none;
+    font-size: 25px;
+    color: #0A3871;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+  
+  
+  }
+
+}

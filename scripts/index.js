@@ -21,7 +21,7 @@ function revisar(text) {
 }
 
 
-//3-Muestra y Oculta el contenido en html
+//3-Prepara y Oculta el contenido en html
 function mostrarCopiar() {
   document.getElementById('copiar').style.display = 'block';
   document.getElementById('mFinal').style.display = 'block';
@@ -49,7 +49,7 @@ function encriptar() {
   mostrar(mensaje);
 }
 
-//6- Desencripta el mensaje
+//5- Desencripta el mensaje
 function desencriptar() {
   let mensaje = revisar(importarMensaje());
   mensaje = mensaje.replace("enter", "e");
@@ -60,7 +60,7 @@ function desencriptar() {
   mostrar(mensaje)
 }
 
-
+//Copia el mensaje final
 function copiar(){
   navigator.clipboard.writeText(document.getElementById("mFinal").value);
 }
