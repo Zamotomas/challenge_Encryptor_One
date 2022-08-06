@@ -114,6 +114,10 @@ line-height: 120%;
 .areaSalidaTexto img{
   display: block;
 }
+.mensajeFinal{
+  font-size: 200%;
+  color: #0A3871;
+}
 /*
 .areaSalidaTexto .button{
   position: absolute;
