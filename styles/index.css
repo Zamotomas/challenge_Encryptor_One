@@ -1,64 +1,119 @@
-body{
-  background-color: peru;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #E5E5E5;
+  display: flex;
+  height: 100vh;
+
 }
 
+header {
 
-header{
-  margin: 40px 0;
+  margin-top: 1.5rem;
+  
   
 }
 
-main{
-  display:flex;
-  background-color: plum;
+/*Area de Ingreso de datos*/
+.areaIngresoTexto {
+  width: 70%;
+  background-color:#E5E5E5;
+ 
 }
-
-
-
+.texto{
+  margin-left: 10%;
+  margin-top:5%;
+}
 
 .areaIngresoTexto textarea {
   text-align: center;
   resize: none;
   font-size: 32px;
   color: #0A3871;
-  border:none;
-  background-color: #E5E5E5;
   border: none;
-  appearance: none;
+  background-color: #E5E5E5;  
   width: 770px;
   height: 360px;
- }
-.areaIngresoTexto p{
-  color:gray;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  
+}
+
+.areaIngresoTexto p {
+  color: gray;
   font-size: 12px;
   line-height: 150%;
+  margin-top: 5%;
+ 
 }
-.buttonsPrincipales input{
- margin-left: 20px;
+.buttonsPrincipales{
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
-.buttonCodificar{
-  background-color: #0A3871;
+.buttonsPrincipales input {
+  font-family: 'Inter', sans-serif;
+  border: solid 1px #0A3871;
+  border-radius: 1.4em;
+  padding: 1rem;
+  margin: 0.4rem 0px;
+  margin-left: 3%;
+  cursor: pointer;
   width: 328px;
-  color:#ffffff;
-}
-
-.buttonDecodificar{
-  background-color:#E5E5E5;
-  width: 328px;
-  color:#0A3871;
-}
-
-/*Area de test*/
-/*--------------------------------------------------------*/
-
-.areaIngresoTexto{
-  background-color:greenyellow;
-}
-.areaSalidaTexto {
-  background-color:lightcoral;
-}
-
-/*--------------------------------------------------------*/
-/*Area de test*/
   
+}
+
+.buttonCodificar {
+  background-color: #0A3871;
+  color: #ffffff;
+}
+.buttonDecodificar {
+  background-color: #D8DFE8;
+  color: #0A3871;
+}
+
+/*Area de Salida de datos*/
+
+.areaSalidaTexto {
+   width:30%;
+  background-color: #fff;
+  border: solid 1px #ddd;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: calc(25vh - 2rem);
+  color: #495057;
+  position: relative;
+  text-align: center;
+  color:#495057;
+line-height: 120%;
+}
+
+.areaSalidaTexto div{
+ 
+  padding-top: 100px;
+  margin-top:80px;
+  padding: 5%;
+}
+.areaSalidaTexto div h1{
+  font-size: 24px;
+  font-weight: bold;
+ 
+}
+.areaSalidaTexto div p{
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.areaSalidaTexto img{
+  display: block;
+}
+/*
+.areaSalidaTexto .button{
+  position: absolute;
+  visibility: hidden;
+  top: 0.5rem;
+  right: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+*/

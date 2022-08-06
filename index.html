@@ -5,56 +5,55 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/index.css">
   <title>Encriptador</title>
 </head>
 
-<body>
+<body>  
 
-  <header>
-    <img src="asset/Logo.png" alt="Letra A de Alura">
-  </header>
+  <section class="areaIngresoTexto">
 
-  <main>
-    <section class="areaIngresoTexto">
-      <div>
-        <textarea type="text"  placeholder="Ingrese el texto aquí" autofocus></textarea>
-      </div>
-      
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2z"/>
-        </svg>
-        Solo letras minúsculas y sin acentos
-      </p>
+    <header>
+      <img src="asset/Logo.png" alt="Letra A de Alura">
+    </header>
+<div class="texto">
+    <textarea type="text" placeholder="Ingrese el texto aquí" autofocus></textarea>
+
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
+        width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+        <path fill="currentColor"
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2z" />
+      </svg>
+      Solo letras minúsculas y sin acentos
+    </p>
+
+    <div class="buttonsPrincipales">
+      <input class="buttonCodificar" type="button" value="Encriptar" />
+      <input class="buttonDecodificar" type="button" value="Desencriptar" />
+    </div>
+  </div>
+
+  </section>
 
 
 
 
-      
-      <div class="buttonsPrincipales">
-
-        <input class="buttonCodificar" type="button" value="Codificar"/>
-        <input class="buttonDecodificar" type="button" value="Decodificar"/>
-
-      </div>
-    </section>
-
+  <section class="areaSalidaTexto">
+   
+      <img src="asset/Muñeco.png" alt="Persona buscando un diamante">
     
-    <section class="areaSalidaTexto">
-      <div>
-        <img src="asset/Muñeco.png" alt="Persona buscando un diamante">
-
-      </div>
-    </section>
-
+    <div>
+      <h1>Ningún mensaje fue encontrado</h1>
+      <p>Ingresa el texto que desees codificar o decodificar</p>
+    </div>
+  </section>
 
 
-  </main>
-
-  <footer>
-    <p>Hola creado por mik</p>
-  </footer>
   <script src="scripts/index.js"></script>
 </body>
 
