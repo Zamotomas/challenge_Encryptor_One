@@ -6,8 +6,9 @@ body {
 
 }
 
-header {
 
+header {
+  
   margin-top: 1.5rem;
   
   
@@ -65,7 +66,13 @@ header {
 .buttonCodificar {
   background-color: #0A3871;
   color: #ffffff;
+  
 }
+.buttonCodificar:active{
+  background-color:red;
+}
+
+
 .buttonDecodificar {
   background-color: #D8DFE8;
   color: #0A3871;

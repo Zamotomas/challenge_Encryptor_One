@@ -13,7 +13,7 @@
   <title>Encriptador</title>
 </head>
 
-<body>  
+<body id="cuerpo" >  
 
   <section class="areaIngresoTexto">
 
@@ -21,7 +21,7 @@
       <img src="asset/Logo.png" alt="Letra A de Alura">
     </header>
 <div class="texto">
-    <textarea type="text" placeholder="Ingrese el texto aquí" autofocus></textarea>
+    <textarea id="areaText" type="text" placeholder="Ingrese el texto aquí" autofocus></textarea>
 
     <p>
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;"
@@ -33,8 +33,8 @@
     </p>
 
     <div class="buttonsPrincipales">
-      <input class="buttonCodificar" type="button" value="Encriptar" />
-      <input class="buttonDecodificar" type="button" value="Desencriptar" />
+      <input id="encriptar" class="buttonCodificar" type="button" value="Encriptar" />
+      <input id="desencriptar" class="buttonDecodificar" type="button" value="Desencriptar" />
     </div>
   </div>
 
