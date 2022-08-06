@@ -21,7 +21,13 @@ function revisar(text) {
 }
 
 
-//3-Prepara y elimina el campo de imagen en html
+//3-Muestra y Oculta el contenido en html
+function mostrarCopiar() {
+  document.getElementById('copiar').style.display = 'block';
+  document.getElementById('mFinal').style.display = 'block';
+  document.getElementById('diamante').style.display = 'none';
+  
+}
 
 
 //4-Muestra los datos en html
@@ -39,7 +45,8 @@ function encriptar() {
   mensaje = mensaje.replace("a", "ai");
   mensaje = mensaje.replace("o", "ober");
   mensaje = mensaje.replace("u", "ufat");
-  mostrar(mensaje)
+  mostrarCopiar();
+  mostrar(mensaje);
 }
 
 //6- Desencripta el mensaje
@@ -54,8 +61,12 @@ function desencriptar() {
 }
 
 
+function copiar(){
+  navigator.clipboard.writeText(document.getElementById("mFinal").value);
+}
+
 
 //Activacion de la Botonera
 document.getElementById("encriptar").onclick = encriptar
 document.getElementById("desencriptar").onclick = desencriptar
-
+document.getElementById("copiar").onclick = copiar

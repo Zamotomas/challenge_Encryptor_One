@@ -92,7 +92,9 @@ header {
   position: relative;
   text-align: center;
   color:#495057;
-line-height: 120%;
+  line-height: 120%;
+
+
 }
 
 .areaSalidaTexto div{
@@ -113,18 +115,39 @@ line-height: 120%;
 
 .areaSalidaTexto img{
   display: block;
+  
 }
 .mensajeFinal{
-  font-size: 200%;
+  display: none;
+  text-align: center;
+   resize: none;
+   font-size: 32px;
+   color: #0A3871;
+   border: none;
+   width: 100%;
+   height: 460px;
+   font-family: 'Inter', sans-serif;
+   outline: none;
+ 
+
+}
+.areaSalidaTexto input{
+  font-family: 'Inter', sans-serif;
+  border: solid 1px #0A3871;
+  border-radius: 1.4em;
+  padding: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 328px;
+  background-color: #D8DFE8;
   color: #0A3871;
-}
-/*
-.areaSalidaTexto .button{
   position: absolute;
-  visibility: hidden;
-  top: 0.5rem;
-  right: 0.5rem;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  left: 13%;
+  bottom: 10%;
+  display: none;
+ 
+
+
 }
-*/
+
+ 
